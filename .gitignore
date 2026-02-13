@@ -12,6 +12,7 @@
 # Web API secrets / environment files
 Authentication/appsettings.Development.json
 Authentication/.env
+*.env
 
 # Logs
 *.log
