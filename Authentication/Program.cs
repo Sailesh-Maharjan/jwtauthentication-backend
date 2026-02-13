@@ -12,6 +12,10 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Default: appsettings.json
+// Automatically override with environment variables
+builder.Configuration.AddEnvironmentVariables();
+
 // Add services to the container.
 builder.Services.AddControllers();
 
