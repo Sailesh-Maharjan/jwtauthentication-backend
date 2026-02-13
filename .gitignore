@@ -14,5 +14,8 @@ Authentication/appsettings.Development.json
 Authentication/.env
 *.env
 
+# text files
+*.txt
+
 # Logs
 *.log
