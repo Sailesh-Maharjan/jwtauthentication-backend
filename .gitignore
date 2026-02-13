@@ -10,8 +10,8 @@
 .vs/
 
 # Web API secrets / environment files
-Authentication.WebApi/appsettings.Development.json
-Authentication.WebApi/.env
+Authentication/appsettings.Development.json
+Authentication/.env
 
 # Logs
 *.log
