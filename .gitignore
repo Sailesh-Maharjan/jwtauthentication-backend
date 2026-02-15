@@ -1,6 +1,7 @@
 # Build folders for all projects
 **/bin/
 **/obj/
+out/
 
 # Visual Studio files
 *.user
