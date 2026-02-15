@@ -10,7 +10,7 @@
 .vs/
 
 # Web API secrets / environment files
-Authentication/appsettings.Development.json
+#Authentication/appsettings.Development.json  //  example of way to ignore specific file
 Authentication/.env
 *.env
 
