@@ -12,6 +12,6 @@ namespace Authentication.DataAccessLayer.Configuration
         public int LoginAttemptsPerhour { get; set; } = 20;
         public int ApiCallsPerMin { get; set; } = 50;
         public int LockoutDurationMin { get; set; } = 10;
-        public int MaxFailedAttempts { get; set; } = 5;
+        public int MaxFailedAttempts { get; set; } = 5; 
     }
 }
