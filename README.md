@@ -46,3 +46,28 @@ Technologies used in the project:
 *   Serilog
 *   Swagger (Swashbuckle)
 *   Railway Platform (Deployment)
+
+  <h2>Project Screenshots:</h2>
+
+  ### Swagger API Testing 
+  ![Swagger](Screenshots/swagger-ui.png) 
+  
+  ![Authorize](screenshots/authorizeforswagger.png)
+
+  ### Health Monitoring
+  ![HealthCheck](Screenshots/health-check.png) 
+
+  ###  Login Response
+  ![Login](Screenshots/login.png) 
+
+  ###  Register Response
+  ![Register](Screenshots/register.png) 
+
+  ###  Rate Limit Violation
+  ![RateLimitViolation](Screenshots/ratelimit-violation.png) 
+
+  ###  Register Insight
+  ![Redis](Screenshots/redis-insight.png) 
+
+   ### Database Screenshots
+  ![Neon-PostgreSql](Screenshots/neon-usertable.png) 
