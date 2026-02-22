@@ -66,7 +66,7 @@ Technologies used in the project:
   ###  Rate Limit Violation
   ![RateLimitViolation](Screenshots/ratelimit-violation.png) 
 
-  ###  Register Insight
+  ###  Redis Insight Screenshots
   ![Redis](Screenshots/redis-insight.png) 
 
    ### Database Screenshots
