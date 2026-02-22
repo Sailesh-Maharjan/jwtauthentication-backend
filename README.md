@@ -45,4 +45,4 @@ Technologies used in the project:
 *   BCrypt.Net
 *   Serilog
 *   Swagger (Swashbuckle)
-*   Railway Platform
+*   Railway Platform (Deployment)
