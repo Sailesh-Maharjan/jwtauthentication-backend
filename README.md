@@ -35,6 +35,9 @@ Here're some of the project's best features:
 *   The application is deployed on Railway with production-ready configuration and environment-based secret management for secure and scalable operation.
 *  PostgreSQL database is deployed  on Neon (serverless platform) to enable scalable, reliable, and cloud-based data storage.
 
+### System Architecture
+   ![SystemArchitecture](Screenshots/block-diagram.png) 
+   
 <h2>💻 Built with</h2>
 
 Technologies used in the project:
