@@ -1,0 +1,45 @@
+# version: "3.9" not needed to mention 
+
+services:
+  authentication-api:
+    build: .
+    container_name: jwt-authentication
+    ports: 
+    - 8080:8080
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultSqlConnection: ${ConnectionStrings__DefaultSqlConnection}
+      JwtSettings__Audience: ${JwtSettings__Audience}
+      JwtSettings__Issuer: ${JwtSettings__Issuer}
+      JwtSettings__SecretKey: ${JwtSettings__SecretKey}
+      RedisSettings__ConnectionString: ${RedisSettings__ConnectionString}
+      RedisSettings__InstanceName: ${RedisSettings__InstanceName}
+
+    depends_on: 
+       - postgresql
+       # - redis
+    restart: always
+
+  postgresql:
+   image: postgres
+   container_name: postgresql-container
+   ports:
+    - 5432:5432
+   environment:
+     POSTGRES_DB: ${POSTGRES_DB}
+     POSTGRES_USER: "postgres"
+     POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+   
+   volumes:
+   - postgresql-container-volume:/var/lib/postgresql
+
+volumes:   
+ postgresql-container-volume:
+
+  # redis:
+  #  image: redis
+  #  container_name: redis-container
+
+
+
+
