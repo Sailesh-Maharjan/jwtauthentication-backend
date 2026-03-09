@@ -50,6 +50,7 @@ Technologies used in the project:
 *   Serilog
 *   Swagger (Swashbuckle)
 *   Railway Platform (Deployment)
+*   Docker
 
   <h2>Project Screenshots:</h2>
 
