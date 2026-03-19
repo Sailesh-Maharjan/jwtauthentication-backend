@@ -176,16 +176,14 @@ builder.Services.AddSwaggerGen(x =>
 builder.Services.AddHealthChecks().AddDbContextCheck<ApplicationDbContext>()
                                   .AddRedis(builder.Configuration["RedisSettings:ConnectionString"]);
 
-var app = builder.Build();
 
-
-
-// Configure Kestrel to listen on Railway port
+// Configure Kestrel to listen on Railway/Render  port
 var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-app.Urls.Clear();
-app.Urls.Add($"http://0.0.0.0:{port}");
+//app.Urls.Clear();
+//app.Urls.Add($"http://0.0.0.0:{port}"); //should be used after var app = builder.Build();
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
-
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
