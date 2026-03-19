@@ -11,6 +11,7 @@
 ![Redis](https://img.shields.io/badge/Redis-Rate%20Limiting-red)
 ![Serilog](https://img.shields.io/badge/Logging-Serilog-orange)
 ![Railway](https://img.shields.io/badge/Deployment-Railway-purple)
+![Docker](https://img.shields.io/badge/Containerization-Docker-teal)
 
 <h2>🚀 Demo</h2>
 
@@ -50,6 +51,7 @@ Technologies used in the project:
 *   Serilog
 *   Swagger (Swashbuckle)
 *   Railway Platform (Deployment)
+*   Docker
 
   <h2>Project Screenshots:</h2>
 
