@@ -10,19 +10,19 @@
 ![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791)
 ![Redis](https://img.shields.io/badge/Redis-Rate%20Limiting-red)
 ![Serilog](https://img.shields.io/badge/Logging-Serilog-orange)
-![Railway](https://img.shields.io/badge/Deployment-Railway-purple)
+![Render](https://img.shields.io/badge/Deployment-Render-purple)
 ![Docker](https://img.shields.io/badge/Containerization-Docker-teal)
 
 <h2>🚀 Demo</h2>
 
 **Base URL :**  
-https://jwtauthenticationbackend-production.up.railway.app  
+https://jwt-authentication-backend-e5ec.onrender.com
 
 **Swagger Documentation :**  
-https://jwtauthenticationbackend-production.up.railway.app/swagger
+https://jwt-authentication-backend-e5ec.onrender.com/swagger
 
 **Health Check Endpoint :**  
-https://jwtauthenticationbackend-production.up.railway.app/health
+https://jwt-authentication-backend-e5ec.onrender.com/health
 
   
   
@@ -33,7 +33,7 @@ Here're some of the project's best features:
 *   This JWT Authentication API implements secure JWT-based authentication using short-lived access tokens, HTTP-only refresh tokens, protected endpoints and secure logout functionality.
 *   Security is maintained through BCrypt password hashing, Redis-based per-endpoint rate limiting, IP-based request tracking, brute-force login protection, maximum login attempt restrictions and temporary IP blocking.
 *   Monitoring is enabled using Serilog structured logging including error tracking authentication, event logs, rate-limit violation logs and a dedicated /health endpoint for service status checks.
-*   The application is deployed on Railway with production-ready configuration and environment-based secret management for secure and scalable operation.
+*   The application is deployed on Render with production-ready configuration and environment-based secret management for secure and scalable operation.
 *  PostgreSQL database is deployed  on Neon (serverless platform) to enable scalable, reliable, and cloud-based data storage.
 
 ### System Architecture
@@ -50,7 +50,7 @@ Technologies used in the project:
 *   BCrypt.Net
 *   Serilog
 *   Swagger (Swashbuckle)
-*   Railway Platform (Deployment)
+*   Render Platform (Deployment)
 *   Docker
 
   <h2>Project Screenshots:</h2>
